@@ -1,0 +1,15 @@
+﻿빌드 시작: 2017-01-08 오전 11:10:22
+     1>2 노드의 "E:\projects\app_components\app_gen_debug_info\projects\windows\vc120\app_gen_debug_info.vcxproj" 프로젝트(Build 대상)입니다.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(356,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\..\ /I..\..\..\..\\opencv\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D PLATFORM_WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\..\..\objests\windows\release\\" /Fd"..\..\..\objests\windows\release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\sources\app_gen_debug_info.c
+         app_gen_debug_info.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\..\libraries\windows\app_gen_dbg_info.lib" /NOLOGO /LTCG ..\..\..\objests\windows\release\app_gen_debug_info.obj
+         app_gen_debug_info.vcxproj -> E:\projects\app_components\app_gen_debug_info\projects\windows\vc120\..\..\..\libraries\windows\app_gen_dbg_info.lib
+     1>"E:\projects\app_components\app_gen_debug_info\projects\windows\vc120\app_gen_debug_info.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:02.20
